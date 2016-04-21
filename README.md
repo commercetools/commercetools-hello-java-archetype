@@ -22,7 +22,7 @@ requirements:
 mvn archetype:generate -B \
   -DarchetypeGroupId=com.commercetools.maven-archetypes \
   -DarchetypeArtifactId=commercetools-hello-java-archetype \
-  -DarchetypeVersion=0.1.0 \
+  -DarchetypeVersion=0.1.1 \
   -DgroupId=io.sphere.demo \
   -DartifactId=commercetools-hello-java \
   -Dversion=0.1.0-SNAPSHOT \
