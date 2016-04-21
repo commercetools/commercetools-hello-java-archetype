@@ -1,3 +1,5 @@
+package ${package};
+
 import io.sphere.sdk.categories.Category;
 import io.sphere.sdk.client.BlockingSphereClient;
 import io.sphere.sdk.client.SphereClient;
@@ -50,7 +52,7 @@ public class Main {
     }
 
     private static BlockingSphereClient createCommercetoolsClient() throws IOException {
-        final Properties properties = loadPropertiesFromClasspath("ctp.properties");
+        final Properties properties = loadPropertiesFromClasspath("/ctp.properties");
         final SphereClientConfig config = SphereClientConfig.ofProperties(properties, "");
         final SphereClient underlyingClient = SphereClientFactory.of().createClient(config);//this client only works asynchronous
         return BlockingSphereClient.of(underlyingClient, 10, TimeUnit.SECONDS);
