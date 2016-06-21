@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.commercetools.maven-archetypes</groupId>
     <artifactId>commercetools-hello-java-archetype</artifactId>
-    <version>0.1.2-SNAPSHOT</version>
+    <version>0.1.2</version>
     <packaging>maven-archetype</packaging>
     <name>Commercetools Java Maven Archetype: Quickstart</name>
     <description>Archetype for creating a Java application with commercetools</description>
@@ -21,7 +21,7 @@
         <developerConnection>scm:git:git@github.com:commercetools/commercetools-hello-java-archetype.git</developerConnection>
         <url>git@github.com:commercetools/commercetools-hello-java-archetype.git</url>
         <connection>scm:git:git@github.com:commercetools/commercetools-hello-java-archetype.git</connection>
-      <tag>HEAD</tag>
+      <tag>commercetools-hello-java-archetype-0.1.2</tag>
   </scm>
     <developers>
         <developer>
